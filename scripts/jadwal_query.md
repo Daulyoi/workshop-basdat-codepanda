@@ -1,3 +1,4 @@
+```sql
 SELECT
     j.id AS id_jadwal,
     mk.nama AS mata_kuliah,
@@ -21,3 +22,4 @@ LEFT JOIN
     Mahasiswa m ON p.id_mhs = m.id
 ORDER BY
     j.tanggal_jam_mulai, m.nim;
+```
